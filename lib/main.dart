@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sliver_app/appbar/fourth_appbar.dart';
+import 'package:flutter_sliver_app/appbar/second_appbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,6 +21,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FourthAppbar();
+    return SecondAppbar();
   }
 }

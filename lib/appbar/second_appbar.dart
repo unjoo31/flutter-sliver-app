@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class second_appbar extends StatelessWidget {
-  const second_appbar({
+class SecondAppbar extends StatelessWidget {
+  const SecondAppbar({
     super.key,
   });
 
@@ -15,6 +15,8 @@ class second_appbar extends StatelessWidget {
             leading: Icon(Icons.menu),
             title: Text("Around"),
             flexibleSpace: PageView.builder(
+              // scrollDirection: Axis.vertical,
+              pageSnapping: false,
               itemCount: 10,
               itemBuilder: (context, index) {
                 return Image.network(
