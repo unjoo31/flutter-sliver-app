@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sliver_app/appbar/first_appbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,8 +20,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: FirstAppBar(),
-    );
+    return Container();
   }
 }
